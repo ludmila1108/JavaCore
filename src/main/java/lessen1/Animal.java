@@ -1,0 +1,4 @@
+package lessen1;
+
+public class Animal {
+}
