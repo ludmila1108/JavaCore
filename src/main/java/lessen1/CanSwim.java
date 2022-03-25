@@ -1,2 +1,5 @@
-package lessen1;public interface CanSwim {
+package lessen1;
+
+public interface CanSwim {
+    double swim(Pool pool);
 }
