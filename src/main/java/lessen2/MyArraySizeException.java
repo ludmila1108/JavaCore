@@ -2,8 +2,11 @@ package lessen2;
 
 
  public class MyArraySizeException extends RuntimeException {
-     MyArraySizeException(String msg) {
-         super("Ошибка размерности массива.\n" + " " + msg);
+     public static void main(String[] args) {
+
      }
+         MyArraySizeException(String a) {
+             super("Ошибка размерности массива.\n" + " " + a);
+         }
 
 }
